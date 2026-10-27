@@ -15,9 +15,9 @@ This project is designed for a **two-person team**.
 
 ## Tech Stack
 
-- .NET 8 / ASP.NET Core Web API
+- .NET 10 / ASP.NET Core Web API
 - Entity Framework Core
-- SQLite
+- PostgressSQL
 - Swagger / OpenAPI
 - xUnit integration tests
 
