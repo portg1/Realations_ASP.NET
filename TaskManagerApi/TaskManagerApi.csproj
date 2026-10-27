@@ -8,6 +8,18 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.14" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="API\" />
+    <Folder Include="Entities\" />
+    <Folder Include="‫Data\" />
+    <Folder Include="‫DTOs\‫Category\" />
+    <Folder Include="‫DTOs\‫Tag\" />
+    <Folder Include="‫DTOs\‫Task\" />
   </ItemGroup>
 
 </Project>
